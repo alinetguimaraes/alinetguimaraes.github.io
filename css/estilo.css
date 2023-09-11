@@ -25,6 +25,10 @@ ul{
     margin: 0;
 }
 
+.header_nav{
+    display: none;
+}
+
 .header_nav ul{
     list-style-type: none;
     margin: 0;
@@ -43,6 +47,16 @@ ul{
     color: var(--primary-color);
 }
 
+.fa-bars{
+    display: block;
+    padding: 1.5em;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.fa-bars:hover{
+    color: white;
+}
 
 @media screen and (min-width: 48em) {
 
@@ -52,6 +66,16 @@ ul{
         display: flex;
         justify-content: flex-end;
         }
+
+    .header_nav{
+        display: block;
+    }
+
+    /* Esconde menu hambúrguer em telas maiores */
+
+    #menu{
+        display: none;
+    }
 
     .header_nav ul{
         align-items: right;
