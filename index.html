@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Aline Guimarães</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <script src="https://kit.fontawesome.com/7d79481767.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header maxWidth">
+        <nav class="header_nav">
+            <ul>
+                <li>
+                    <a href="#sobreMimId">Sobre Mim</a>
+                </li>
+
+                <li>
+                    <a href="projetos.html">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="#contatoId">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Título-->
+        <div class="heroBanner">
+            <div class="heroText">
+                <h1><span id="content1">Olá, sou</span> <span id="content2"> Aline Guimarães</span></h1>
+                <h2 class="subtituloHero">Desenvolvedora Web</h2>
+                <a href="#sobreMim" class="btnBlue">Saiba mais</a>
+            </div>
+        </div>
+
+        <!--Sobre-->
+        <section id="sobreMimId" class="maxWidth sobreMim">
+            <h2>Sobre mim</h2>
+            
+            <div class="sobreRow">
+            <img src="imagens/perfil aline.jpg" alt="Aline Guimarães" class="imgAline">
+            <div>
+                <p> Sou, em primeiro lugar, uma entusiasta da tecnologia e da busca por novos conhecimentos! </p>
+                <p>Bacharel em Turismo em transição de área, o trabalho em Gestão de Projetos me levou ao caminho do Business Intelligence e da Ciência de Dados, áreas onde cursei pós-graduações. 
+                A partir daí a aproximação da área de tecnologia foi (e está sendo) um processo natural e encantador.</p> 
+                <p>Atualmente tenho me dedicado à capacitação em desenvolvimento web como aluna do Projeto ElasNaTech da JA Brasil e do Projeto Descodificadas da Descod Tech, paralelamente a demais capacitações nessa jornada de aprendizagem tão interessante. </p>
+                <p>Atuais áreas de interesse: HTML| CSS | Javascript | Python | Git </p>
+            </div>
+
+            </div>
+
+            <div>
+            <a href="projetos.html" class="btnBlue">Projetos</a>
+            <a href="#curriculo" target="_blank" class="btnDark">Currículo</a>
+            </div>
+
+            <div class="linksSobre">
+                <a href="https://github.com/alinetguimaraes" target="_blank"><i class="fa-brands fa-github fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/aline-torres-guimaraes/" target="_blank"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+
+            </div>
+        </section>
+
+        <!--Contato-->
+        <section id="contatoId" class="maxWidth contato">
+            <h2>Entre em contato</h2>
+
+            <div class="formContainer">
+            <form action="https://formsubmit.co/aline.tguimaraes@gmail.com" method="post" data-form>
+                <fieldset>
+                    <label for="name">Nome</label>
+                    <input type="text" name="nome" id="name" required placeholder="Nome">
+                    <label for="e-mail">E-mail</label>
+                    <input type="email" name="email" id="e-mail" required placeholder="E-mail">
+                    <label for="message">Mensagem</label>
+                    <textarea name="mensagem" id="message" cols="30" rows="10" required placeholder="Mensagem"></textarea>
+
+                    <button type="submit" data-button class="btnBlue btnContato">Enviar</button>
+                </fieldset>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Aline Guimarães | 2023
+    </footer>
+</body>
+</html>
