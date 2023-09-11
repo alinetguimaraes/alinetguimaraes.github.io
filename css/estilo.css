@@ -73,7 +73,7 @@ ul{
 
     /* Esconde menu hambúrguer em telas maiores */
 
-    #menu{
+    #hamburguer{
         display: none;
     }
 
