@@ -73,6 +73,7 @@ ul{
 
     /* Esconde menu hambúrguer em telas maiores */
 
+
     #hamburguer{
         display: none;
     }
@@ -370,6 +371,14 @@ footer{
 
 .fa-solid {
     color: #43C7FF;
+}
+
+article a{
+    color: white;
+}
+
+article a:hover{
+    color: var(--primary-color);
 }
 
 
