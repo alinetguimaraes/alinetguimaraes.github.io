@@ -235,6 +235,10 @@ h1{
         letter-spacing: 0.05em;
     }
 
+    .sobreContent{
+        width: 60vh;
+    }
+
     .imgAline{
         max-width: 20em;
         max-height: 20em;
