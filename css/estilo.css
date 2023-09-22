@@ -58,9 +58,11 @@ ul{
     color: white;
 }
 
-@media screen and (min-width: 48em) {
+/* Telas maiores */
 
-    /* Maior que 768px */
+@media screen and (min-width: 57em) {
+
+    /* Maior que 912px */
 
     .header{
         display: flex;
@@ -121,10 +123,11 @@ h1{
     display: inline-block;
 }
 
+/* Telas maiores */
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 57em) {
 
-    /* Maior que 768px */
+    /* Maior que 912px */
 
     .heroText{
         margin-top: 20em;
@@ -170,6 +173,9 @@ h1{
     gap: 2em;
 }
 
+.sobreContent{
+    width: 80%;
+}
 .sobreMim p{
     text-align: justify;
 }
@@ -202,10 +208,12 @@ h1{
     color: var(--primary-color);
 }
 
+/* Telas maiores */
 
-@media screen and (min-width: 48em) {
 
-    /* Maior que 768px */
+@media screen and (min-width: 57em) {
+
+    /* Maior que 912px */
 
     h2{
         font-size: 2em;
@@ -293,6 +301,8 @@ footer{
     text-align: center;
     padding: 1em;
 }
+
+/* Telas médias e acima */
 
 @media screen and (min-width: 48em) {
     /*Maior que 768 px*/
@@ -391,9 +401,39 @@ iframe{
 }
 
 
+/* Telas médias */
 
-@media screen and (min-width: 48em) {
-    /*Maior que 768 px*/
+@media screen and (min-width: 48em){
+    /* Maior que 768px */
+    .imgArticle{
+        max-width: 30em;
+        max-height: fit-content;
+        margin-bottom: 2em;
+       
+    }
+
+    iframe{
+        width: 30em;
+        height: 20em;
+    }
+
+    .card h3{
+        font-size: 1.3em;
+    }
+
+    .card p{
+        font-size: 1.1em;
+        text-align: center;
+        width: 70%;
+    }
+
+}
+
+
+/* Telas maiores */
+
+@media screen and (min-width: 57em) {
+    /*Maior que 912 px*/
 
     .imgArticle{
         display: block;
@@ -426,11 +466,12 @@ iframe{
         max-width: 30%;
         line-height: 1.5em;
         padding: 0;
+        text-align: justify;
     }
 
     iframe{
         width: 40em;
-        height: 21em;
+        height: 25em;
     }
     
 
