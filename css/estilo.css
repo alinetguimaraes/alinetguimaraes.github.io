@@ -211,9 +211,9 @@ h1{
 /* Telas maiores */
 
 
-@media screen and (min-width: 57em) {
+@media screen and (min-width: 75em) {
 
-    /* Maior que 912px */
+    /* Maior que 1200px */
 
     h2{
         font-size: 2em;
@@ -432,8 +432,8 @@ iframe{
 
 /* Telas maiores */
 
-@media screen and (min-width: 57em) {
-    /*Maior que 912 px*/
+@media screen and (min-width: 75em) {
+    /*Maior que 1200 px*/
 
     .imgArticle{
         display: block;
