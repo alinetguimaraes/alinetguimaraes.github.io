@@ -133,6 +133,19 @@ h1{
     margin-bottom: 1em;
 }
 
+.up{
+    display: flex;
+    justify-content: right;
+    margin-right: 1em;
+    position: sticky;
+    top:50em;
+}
+
+.fa-circle-up{
+    font-size: 1.5em;
+    color: var(--primary-color);
+}
+
 /* Telas maiores */
 
 @media screen and (min-width: 57em) {
@@ -166,6 +179,15 @@ h1{
     .btnDark{
         font-size: 1em;
         padding: 1em 3em;
+    }
+
+    .up{
+        margin-right: 10em;
+        top: 55em;
+    }
+
+    .fa-circle-up{
+        font-size: 2em;
     }
 
 
@@ -480,3 +502,4 @@ iframe{
     
 
 }
+
