@@ -12,9 +12,6 @@ h2{
     font-weight: 300;
 }
 
-.maxWidth{
-    max-width: 100em;
-}
 
 .header{
     text-align: right;
@@ -337,6 +334,7 @@ footer{
         align-items: center;
     }
 }
+
 
 .projetosTitle{
     text-align: center;
